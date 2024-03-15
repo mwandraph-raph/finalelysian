@@ -1,0 +1,60 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    /* background-color: rgba(243, 74, 74, 0.1); */
+}
+
+.contact-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+
+@media(max-width:600px){
+    .contact-grid-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skewed-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -120px;
+    }
+
+    .nav-bar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading-wrapper{
+       margin-left: 100px;
+    }
+}
+
+.company-metadata-sidebar-wrapper > .logo img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
+    color: #ff4500;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: #cea135;
+}

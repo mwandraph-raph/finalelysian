@@ -1,0 +1,28 @@
+.btn {
+    background-color: #ff4500;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid aqua;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+.btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.center-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.w3-container > .btn{
+    text-decoration: none;
+}
